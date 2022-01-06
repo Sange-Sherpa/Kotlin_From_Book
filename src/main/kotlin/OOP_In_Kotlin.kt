@@ -1,7 +1,13 @@
-fun main() {
-    val r = IntRange(1,3).sum()
-    println(r)
-    for (i in IntRange(1,10)) {
-        println(i)
+class A {
+    private var name: String? = "John"
+
+    fun getName() = name
+    fun setName(name:String) {
+        this.name = name
     }
+}
+
+fun main() {
+    var a = A()
+    println(a.getName())
 }
