@@ -4,5 +4,5 @@ fun printArr(arr: Array<Int>?) {
 
 fun main() {
     var a = arrayOf(1,2,3)
-    printArr(null)
+    printArr(a)
 }
